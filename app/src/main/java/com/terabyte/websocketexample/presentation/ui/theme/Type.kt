@@ -1,4 +1,4 @@
-package com.terabyte.websocketexample.ui.theme
+package com.terabyte.websocketexample.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

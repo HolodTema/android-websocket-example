@@ -1,4 +1,4 @@
-package com.terabyte.websocketexample
+package com.terabyte.websocketexample.presentation.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.terabyte.websocketexample.ui.theme.WebsocketExampleTheme
+import com.terabyte.websocketexample.presentation.ui.theme.WebsocketExampleTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

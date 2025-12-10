@@ -40,6 +40,14 @@ android {
 }
 
 dependencies {
+    //Coroutines extensions for Android
+    implementation(libs.kotlinx.coroutines.android)
+
+    //MVVM pattern
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    //OkHttp3 for websocket connection
+    implementation(libs.squareup.okhttp)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
